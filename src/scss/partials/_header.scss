@@ -1,0 +1,59 @@
+header{
+  padding: 24px 24px 0 24px;
+  background-color: white;
+  border-bottom: 1px solid rgba(151,151,151,0.5);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  line-height: 1.54;
+  z-index: 100;
+  .header-top{
+    display: flex;
+    .logo{
+      display: block;
+      height: 24px;
+    }
+    h2{
+      display: inline-block;
+      margin: 0 7px;
+      line-height: 22px;
+      a{
+        color: #5f6368;
+        font-size: 22px;
+        font-weight: 400;
+      }
+    }
+  }
+  nav{
+    padding-top: 15px;
+    padding-right: 15px;
+    ul{
+      display: inline-block;
+      li{
+        display: inline-block;
+        margin-right: 42px;
+        a{
+          padding-bottom: 6px;
+          display: inline-block;
+          color: #5f6368;
+          font-size: 15px;
+          font-weight: 600;
+        }
+        &:last-child a{
+          border-bottom: 3px solid #3367d6;
+          color: #3367d6;
+        }
+      }
+    }
+    .account{
+      float: right;
+      a{
+        padding-bottom: 6px;
+        display: inline-block;
+        color: #5f6368;
+        font-size: 15px;
+        font-weight: 600;
+      }
+    }
+  }
+}
